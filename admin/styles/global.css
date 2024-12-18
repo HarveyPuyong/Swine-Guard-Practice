@@ -11,7 +11,28 @@
   --F-size: 16px;
   --F-size: 18px;
   --F-size: 14px;
+}
 
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img{
+ width: 100%;
+}
+
+button{
+  cursor: pointer;
+}
+
+ul{
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
 }
 
 body{
