@@ -4,13 +4,16 @@
   --accent-color-one: #2FC375;
   --accent-color-two: #C32F2F;
 
+  --base-small-Fsize: 14px;
+  --base-medium-Fsize: 20px;
+  --base-large-Fsize: 30px;
+
   --F-size: 25px;
   --F-sise: 30px;
   --F-size: 20px;
   --F-size: 14px;
   --F-size: 16px;
   --F-size: 18px;
-  --F-size: 14px;
 }
 
 *{
@@ -36,5 +39,6 @@ a{
 }
 
 body{
-  font-family: 'poppins';
+  font-family: "Poppins", sans-serif;
+  background-color: var(--neutral-color);
 }
