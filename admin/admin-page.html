@@ -10,6 +10,12 @@
     <link rel="stylesheet" href="styles/global.css">
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/side-panel.css">
+    <link rel="stylesheet" href="styles/sections/announcement.css">
+    <link rel="stylesheet" href="styles/sections/vaccine-record.css">
+    <link rel="stylesheet" href="styles/sections/appointment-request.css">
+    <link rel="stylesheet" href="styles/sections/messages.css">
+    <link rel="stylesheet" href="styles/sections/data-analysis.css">
+    <link rel="stylesheet" href="styles/sections/archived.css">
     <title>Admin Page</title>
   </head>
   <body>
@@ -52,37 +58,37 @@
 
       <nav class="services-nav">
         <ul>
-          <li>
+          <li data-value="announcement-section">
               <p class="icon">A</p>
               <p class="label">Announcement <br> 
                 <span>Create and post</span>
               </p>
           </li>
-          <li>
+          <li data-value="vaccine-record-section">
               <p class="icon">V</p>
               <p class="label">Vaccine Record <br>
                  <span>List and groups</span>
               </p>
           </li>
-          <li>
+          <li data-value="appointment-request-section">
               <p class="icon">A</p>
               <p class="label">Appointment Request<br>
                  <span>Accept and schedule</span>
               </p>
           </li>
-          <li>
+          <li data-value="messages-section">
               <p class="icon">M</p>
               <p class="label">Messages<br>
                  <span>Read and write response</span>
               </p>
           </li>
-          <li>
+          <li data-value="data-analysis-section">
               <p class="icon">D</p>
               <p class="label">Data Analysis<br>
                  <span>Graphs and tables</span>
               </p>
           </li>
-          <li>
+          <li data-value="archived-section">
               <p class="icon">A</p>
               <p class="label">Archived<br>
                  <span>Recent deleted</span>
@@ -159,5 +165,7 @@
         </div>
       </section>
     </main> 
+
+    <script type="module" src="script/main.js"></script>
   </body>
 </html>

@@ -42,3 +42,28 @@ body{
   font-family: "Poppins", sans-serif;
   background-color: var(--neutral-color);
 }
+
+main{
+  padding: 2.7rem 8rem 2rem 27rem;
+}
+
+section .content-container.d-grid{
+  display: grid;
+  column-gap: 5rem;
+  row-gap: 2rem;
+  grid-template-columns: 1fr 1fr;
+}
+
+section .content-container .content{
+  height: 10rem;
+  background-color: #2FC375;
+  border-radius: 15px;
+}
+
+#announcement-section .content-container .content{
+  background-color: var(--accent-color-one);
+}
+
+#archived-section .content-container .content{
+  background-color: rgb(206, 15, 15);
+}
