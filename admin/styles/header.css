@@ -1,14 +1,14 @@
 header{
   display: flex;
-  gap: 2rem;
-  padding: 1rem 8rem 1rem 3rem;
+  gap: 1.5rem;
+  padding: 0.8rem 8rem 0.8rem 3rem;
   align-items: center;
   background-color: var(--accent-color-one);
-  margin-bottom: 0.2rem;
+  margin-bottom: 0.1rem;
 }
 
 header .hamburger-icon{
-  width: 2.2rem;
+  width: 2rem;
 }
 
 header .logo{
@@ -17,8 +17,8 @@ header .logo{
 }
 
 header .logo .logo-icon{
-  width: 2.2rem;
-  height: 2.2rem;
+  width: 2rem;
+  height: 2rem;
   border-radius: 5px;
   background-color: var(--accent-color-two);
   margin-right: 0.7rem;
@@ -34,8 +34,8 @@ header .logo .logo-txt{
 header .icon{
   position: relative;
   background-color: white;
-  width: 2.2rem;
-  height: 2.2rem;
+  width: 2rem;
+  height: 2rem;
   border-radius: 5px;
 }
 
