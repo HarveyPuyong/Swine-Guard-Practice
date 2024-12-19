@@ -38,4 +38,10 @@ body{
   font-family: "Poppins", sans-serif;
 }
 
+.main-wrapper{
+  --wrapper-max-width: 1250px;
+  --wrapper-padding: 8%;
 
+  width: min(var(--wrapper-max-width), 100% - var(--wrapper-padding));
+  margin-inline: auto;
+}

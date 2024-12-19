@@ -1,8 +1,8 @@
 header{
   display: flex;
   justify-content: space-between;
-  margin-bottom: 2rem;
-  padding: 0.8rem 6% 0.5rem 4%;
+  margin-bottom: 1.5rem;
+  padding: 0.5rem 6% 0.3rem 4%;
   background-color: var(--accent-color);
 }
 
@@ -12,12 +12,12 @@ header .logo{
 }
 
 header .logo .logo-icon{
-  width: 2.5rem;
-  margin-right: 1.2rem;
+  width: 2rem;
+  margin-right: 0.9rem;
 }
 
 header .logo .logo-txt{
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-weight: 600;
   color: var(--neutral-color);
 }
