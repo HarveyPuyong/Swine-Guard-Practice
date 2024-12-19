@@ -1,8 +1,7 @@
 :root{
   --primary-color: #434343;
   --neutral-color: #FFFFFF;
-  --accent-color-one: #2FC375;
-  --accent-color-two: #C32F2F;
+  --accent-color: #2FC375;
 
   --F-size: 25px;
   --F-size: 20px;
@@ -33,3 +32,10 @@ ul{
 a{
   text-decoration: none;
 }
+
+body{
+  background-color: var(--neutral-color);
+  font-family: "Poppins", sans-serif;
+}
+
+

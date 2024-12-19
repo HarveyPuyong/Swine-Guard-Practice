@@ -1,0 +1,32 @@
+header{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  padding: 0.8rem 6% 0.5rem 4%;
+  background-color: var(--accent-color);
+}
+
+header .logo{
+  display: flex;
+  align-items: center;
+}
+
+header .logo .logo-icon{
+  width: 2.5rem;
+  margin-right: 1.2rem;
+}
+
+header .logo .logo-txt{
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--neutral-color);
+}
+
+header .top-nav ul {
+  display: none;
+}
+
+header .show-topnav-btn{
+  color: var(--neutral-color);
+  font-size: 2rem;
+}
