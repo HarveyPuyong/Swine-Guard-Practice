@@ -1,15 +1,13 @@
 .details-container{
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
 }
 
 .details-container .join-details{
   position: relative;
-  padding-bottom: 0.5rem;
 }
 .details-container .log-in-details{
   display: none;
   position: relative;
-  padding-bottom: 0.5rem;
 }
 
 .details-container .logo{
@@ -26,15 +24,13 @@
 .details-container .detail{
   font-size: clamp(1rem, 2vw, 1.87rem);
   text-align: justify;
-  margin-bottom: 2.5rem;
+  margin-bottom: 1.8rem;
   line-height: 1.5em;
 }
 
 .details-container button{
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
+  position: relative;
+  text-align: center;
   font-size: clamp(1.125rem, 1.5vw, 1.75rem);
   font-weight: bold;
   border: none;
@@ -43,10 +39,27 @@
   background-color: var(--accent-color);
   color: var(--neutral-color);
   padding: 0.5rem 0;
+  margin-left: 50%;
+  transform: translateX(-50%);
 }
-/* .details-container .log-in-details{
-  display: none;
-} */
+
+.details-container button .flower-icon{
+  position: absolute;
+}
+
+.details-container button .flower-icon.small{
+  width: 0.9rem;
+  top: -8px;
+  right: 13px;
+}
+
+.details-container button .flower-icon.big{
+  width: 2.1rem;
+  top: -15px;
+  right: -15px;
+
+}
+
 
 .display-container .join-details{
   margin-bottom: 10rem;

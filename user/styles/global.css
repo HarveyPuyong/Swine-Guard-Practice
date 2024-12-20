@@ -34,6 +34,7 @@ a{
   text-decoration: none;
 }
 
+
 body{
   background-color: var(--neutral-color);
   font-family: "Poppins", sans-serif;
@@ -41,7 +42,7 @@ body{
 
 .main-wrapper{
   --wrapper-max-width: 1280px;
-  --wrapper-padding: 6%;
+  --wrapper-padding: 7%;
 
   width: min(var(--wrapper-max-width), 100% - var(--wrapper-padding));
   margin-inline: auto;

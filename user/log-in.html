@@ -17,7 +17,7 @@
   <body>
     <header>
       <div class="logo">
-        <img src="images-and-icons/icons/swineGuard logo icon.png" alt="logo-icon" class="logo-icon">
+        <img src="images-and-icons/icons/logo-icon.png" alt="logo-icon" class="logo-icon">
         <p class="logo-txt">Swine Guard</p>
       </div>
       <nav class="top-nav">
@@ -34,19 +34,23 @@
         <div class="details-container">
           <div class="join-details">
             <div class="logo">
-              <img src="images-and-icons/icons/swineGuard logo icon.png" alt="logo-icon" class="logo-icon">
+              <img src="images-and-icons/icons/logo-icon.png" alt="logo-icon" class="logo-icon">
               <h1 class="logo-txt">Swine<br>Guard</h1>
             </div>
             <h2 class="heading">Protect Your Pigs, Secure<br>
                                Your Finances!
             </h2>
             <p class="detail">&nbsp;&nbsp;&nbsp;"Join us to revolutionize swine farming. Monitor your herd's health and boost productivity start now by creating your account!"</p>
-            <button class="join-btn">Join Now</button>
+            <button class="join-btn">
+              Join Now 
+              <img class="flower-icon small" src="images-and-icons/icons/Flower-icon.png" alt="flower-icon big">
+              <img class="flower-icon big" src="images-and-icons/icons/Flower-icon.png" alt="flower-icon small">
+            </button>
           </div>
           
           <div class="log-in-details">
             <div class="logo">
-              <img src="images-and-icons/icons/swineGuard logo icon.png" alt="logo-icon" class="logo-icon">
+              <img src="images-and-icons/icons/logo-icon.png" alt="logo-icon" class="logo-icon">
               <h1 class="logo-txt">Swine<br>Guard</h1>
             </div>
             <h2 class="heading">Create Your Account &<br>
@@ -54,14 +58,20 @@
                               Today!
             </h2>
             <p class="detail">&nbsp;&nbsp;&nbsp;"Take control of your swine farming journey sign up now and start monitoring your herd's health and growth in real time!"</p>
-            <button class="log-in-btn">Log in</button>
+            <button class="log-in-btn">
+              Log in 
+              <img class="flower-icon small" src="images-and-icons/icons/Flower-icon.png" alt="flower-icon">
+              <img class="flower-icon big" src="images-and-icons/icons/Flower-icon.png" alt="flower-icon">
+            </button>
           </div>
         </div>
 
+        <!-- Forms container -->
         <div class="forms-container">
+          <!-- login form -->
           <form action="" class="log-in-form">
-            <img src="images-and-icons/icons/form icon.png" alt="pig-icon" class="pig-top-icon">
-            <img src="images-and-icons/icons/form icon2.png" alt="pig-icon" class="img pig-bottom-icon">
+            <img src="images-and-icons/icons/Pig-1.png" alt="pig-icon" class="pig-icon pig-top-icon">
+            <img src="images-and-icons/icons/Pig-2-left.png" alt="pig-icon" class="pig-icon pig-bottom-left-icon">
             <h1 class="heading">LOG IN</h1>
             <label for="email-input">
               User email: <br>
@@ -75,47 +85,65 @@
             <button class="log-in-btn">Log in</button>
           </form>
           
+          <!-- name sign up forms -->
           <form action="" class="sign-up-form user-name-form">
-            <img src="images-and-icons/icons/form icon.png" alt="pig-icon" class="pig-top-icon">
-            <img src="images-and-icons/icons/form icon2.png" alt="pig-icon" class="img pig-bottom-icon">
-            <h1 class="heading">Sign Up</h1>
-            <label for="f-name-input">
-              First name:
-              <input id="f-name-input" type="text">
-            </label>
-            <label for="l-name-input">
-              Last name:
-              <input id="l-name-input" type="text">
-            </label>
-            <label for="m-name-input">
-              Middle input:
-              <input id="m-name-input" type="text">
-            </label>
+            <img src="images-and-icons/icons/Pig-1.png" alt="pig-icon" class="pig-icon pig-top-icon">
+            <img src="images-and-icons/icons/Pig-2-left.png" alt="pig-icon" class="pig-icon pig-bottom-left-icon">
+            <img src="images-and-icons/icons/Pig-2-right.png" alt="pig-icon" class="pig-icon pig-bottom-right-icon">
+            <h1 class="heading">Sign Up</h1>          
+            <label for="status">Status</label>
+            <select name="status" id="status">
+              <option value="single">Single</option>
+              <option value="married">Married</option>
+              <option value="inrelationship">in-relationship</option>
+            </select>
+            <label for="sex">Sex</label>
+            <select name="sex" id="sex">
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="transgender">Transgender</option>
+            </select>
+            <label for="birthday-input">Birthday:</label>
+            <input id="birthday-input" type="date">
+            <label for="contact-number">Phone:</label>
+            <input id="contact-number" type="tel" placeholder="+63" required>
             <button class="next-btn">Next</button>
           </form>
 
-          <form action="" class="sign-up-form user-contact-form">
-            <img src="images-and-icons/icons/form icon.png" alt="pig-icon" class="pig-top-icon">
-            <img src="images-and-icons/icons/form icon2.png" alt="pig-icon" class="img pig-bottom-icon">
+            <!-- address sign up forms -->
+          <form action="" class="sign-up-form user-details-form">
+            <img src="images-and-icons/icons/Pig-1.png" alt="pig-icon" class="pig-icon pig-top-icon">
+            <img src="images-and-icons/icons/Pig-2-left.png" alt="pig-icon" class="pig-icon pig-bottom-left-icon">
+            <img src="images-and-icons/icons/Pig-2-right.png" alt="pig-icon" class="pig-icon pig-bottom-right-icon">
             <h1 class="heading">Sign Up</h1>
-            <label for="municipal-input">
-              Municipality:
-              <input id="municipal-input" type="text">
-            </label>
-            <label for="barangay-input">
-              Barangay:
-              <input id="barangay-input" type="text">
-            </label>
-            <label for="contact-number">
-              Contact Number:
-              <input id="contact-number" type="number">
-            </label>
+
+            <label for="municipal">Municipal</label>
+            <select name="municipal" id="municipal">
+              <option value="boac">Boac</option>
+              <option value="mogpog">Mogpog</option>
+              <option value="sta-cruz">Sta-cruz</option>
+              <option value="gasan">Gasan</option>
+              <option value="buenavista">Buenavista</option>
+            </select>
+            <label for="barangay">Barangay</label>
+            <select name="barangay" id="barangay">
+              <option value="maligaya">Maligaya</option>
+              <option value="buliasnin">Buliasnin</option>
+              <option value="santol">Santol</option>
+            </select>
+            <label for="purok">Purok:</label>
+            <select name="purok" id="purok" required>
+              <option value="purok1">Purok1</option>
+              <option value="purok2">Purok2</option>
+            </select>
             <button class="next-btn">Next</button>
           </form>
 
+          <!-- security sign up forms -->
           <form action="" class="sign-up-form use-security-form">
-            <img src="images-and-icons/icons/form icon.png" alt="pig-icon" class="pig-top-icon">
-            <img src="images-and-icons/icons/form icon2.png" alt="pig-icon" class="img pig-bottom-icon">
+            <img src="images-and-icons/icons/Pig-1.png" alt="pig-icon" class="pig-icon pig-top-icon">
+            <img src="images-and-icons/icons/Pig-2-left.png" alt="pig-icon" class="pig-icon pig-bottom-left-icon">
+            <img src="images-and-icons/icons/Pig-2-right.png" alt="pig-icon" class="pig-icon pig-bottom-right-icon">
             <h1 class="heading">Sign Up</h1>
             <label for="email-input">
               Email:
@@ -132,9 +160,11 @@
             <button class="create-btn">Create</button>
           </form>
 
+          <!-- Terms and Conditions -->
           <form action="" class="sign-up-form terms-and-condition">
-            <img src="images-and-icons/icons/form icon.png" alt="pig-icon" class="pig-top-icon">
-            <img src="images-and-icons/icons/form icon2.png" alt="pig-icon" class="img pig-bottom-icon">
+            <img src="images-and-icons/icons/Pig-1.png" alt="pig-icon" class="pig-icon pig-top-icon">
+            <img src="images-and-icons/icons/Pig-2-left.png" alt="pig-icon" class="pig-icon pig-bottom-left-icon">
+            <img src="images-and-icons/icons/Pig-2-right.png" alt="pig-icon" class="pig-icon pig-bottom-right-icon">
             <h1 class="heading">Sign Up</h1>
             <p class="details">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores, asperiores amet! Architecto autem ducimus, et earum nisi commodi ullam officiis voluptatibus saepe magnam, praesentium quod temporibus porro ab optio aperiam?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium suscipit consequatur amet, atque, vitae distinctio quasi, deserunt sed vero iste maxime temporibus ea. Et illo nam deleniti ab natus eius.
