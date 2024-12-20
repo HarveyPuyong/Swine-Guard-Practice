@@ -1,5 +1,6 @@
 :root{
   --primary-color: #434343;
+  --primary-color2: #555555;
   --neutral-color: #FFFFFF;
   --accent-color: #2FC375;
 
@@ -39,8 +40,8 @@ body{
 }
 
 .main-wrapper{
-  --wrapper-max-width: 1250px;
-  --wrapper-padding: 8%;
+  --wrapper-max-width: 1280px;
+  --wrapper-padding: 6%;
 
   width: min(var(--wrapper-max-width), 100% - var(--wrapper-padding));
   margin-inline: auto;

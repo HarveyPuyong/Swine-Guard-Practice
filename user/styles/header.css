@@ -2,7 +2,7 @@ header{
   display: flex;
   justify-content: space-between;
   margin-bottom: 1.5rem;
-  padding: 0.5rem 6% 0.3rem 4%;
+  padding: 0.5rem 5% 0.3rem 3%;
   background-color: var(--accent-color);
 }
 
@@ -12,18 +12,19 @@ header .logo{
 }
 
 header .logo .logo-icon{
-  width: 2rem;
+  width: 50px;
   margin-right: 0.9rem;
 }
 
 header .logo .logo-txt{
-  font-size: 1.2rem;
+  font-size: 1.5625rem;
   font-weight: 600;
   color: var(--neutral-color);
 }
 
 header .top-nav ul {
   display: none;
+  font-size: 1.125px;
 }
 
 header .show-topnav-btn{

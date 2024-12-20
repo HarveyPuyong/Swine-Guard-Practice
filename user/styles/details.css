@@ -1,5 +1,5 @@
 .details-container{
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .details-container .join-details{
@@ -17,15 +17,16 @@
 } 
 
 .details-container .heading{
+  font-size: clamp(1.5625rem, 5vw, 3.4375rem) ;
   color: var(--primary-color);
-  font-size: 1.2rem;
   font-weight: bolder;
   margin-bottom: 0.8rem;;
 }
 
 .details-container .detail{
+  font-size: clamp(1rem, 2vw, 1.87rem);
   text-align: justify;
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
   line-height: 1.5em;
 }
 
@@ -34,11 +35,11 @@
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
+  font-size: clamp(1.125rem, 1.5vw, 1.75rem);
   font-weight: bold;
-  font-size: 0.8rem;
   border: none;
   border-radius: 5px;
-  width: 6rem;
+  width: 8rem;
   background-color: var(--accent-color);
   color: var(--neutral-color);
   padding: 0.5rem 0;
