@@ -73,12 +73,12 @@
             <img src="images-and-icons/icons/Pig-2-left.png" alt="pig-icon" class="pig-icon pig-bottom-left-icon">
             <h1 class="heading">LOG IN</h1>
             <label for="email-input">Email:</label> <br>         
-            <input id="email-input" type="email">
+            <input id="email-input" type="email" required>
             <label for="password-input">Password:</label> <br>   
-            <div class="password-container"><input id="password-input" type="password"><img class="eye-icon" src="images-and-icons/icons/eye-icon.png" alt="eye-icon"></div>              
+            <div class="password-container"><input id="password-input" type="password" required><img class="eye-icon" src="images-and-icons/icons/eye-icon.png" alt="eye-icon"></div>              
             <button class="log-in-btn">Log in</button>
           </form>
-          
+
           <!-- name sign up forms -->
           <form action="" class="sign-up-form user-name-form">
             <img src="images-and-icons/icons/Pig-1.png" alt="pig-icon" class="pig-icon pig-top-icon">
@@ -88,7 +88,7 @@
             <div class="status-and-sex-container">
               <div class="status-container">
                 <label for="status">Status</label><br>
-                <select name="status" id="status">
+                <select name="status" id="status" required>
                   <option value=""></option>
                   <option value="single">Single</option>
                   <option value="married">Married</option>
@@ -97,7 +97,7 @@
               </div>
               <div class="sex-container">
                 <label for="sex">Sex</label><br>
-                <select name="sex" id="sex">
+                <select name="sex" id="sex" required>
                   <option value=""></option>
                   <option value="male">Male</option>
                   <option value="female">Female</option>
@@ -107,29 +107,58 @@
             </div>        
             <label for="contact-number">Phone:</label>
             <input id="contact-number" type="tel" placeholder="+63" required>
+            <label for="birthday-input">Birthday:</label>
+            <input id="birthday-input" type="date">
             <button class="next-btn">Next</button>
           </form>
 
-            <!-- address sign up forms -->
+          <!-- details sign up forms -->
           <form action="" class="sign-up-form user-details-form">
+            <img src="images-and-icons/icons/Pig-1.png" alt="pig-icon" class="pig-icon pig-top-icon">
+            <img src="images-and-icons/icons/Pig-2-left.png" alt="pig-icon" class="pig-icon pig-bottom-left-icon">
+            <img src="images-and-icons/icons/Pig-2-right.png" alt="pig-icon" class="pig-icon pig-bottom-right-icon">
+            <h1 class="heading">Sign Up</h1>  
+            <div class="status-and-sex-container">
+              <div class="status-container">
+                <label for="status">Status</label><br>
+                <select name="status" id="status" required>
+                  <option value=""></option>
+                  <option value="single">Single</option>
+                  <option value="married">Married</option>
+                  <option value="inrelationship">in-relationship</option>
+                </select>
+              </div>
+              <div class="sex-container">
+                <label for="sex">Sex</label><br>
+                <select name="sex" id="sex" required>
+                  <option value=""></option>
+                  <option value="male">Male</option>
+                  <option value="female">Female</option>
+                  <option value="transgender">Transgender</option>
+                </select>
+              </div>        
+            </div>        
+            <label for="contact-number">Phone:</label>
+            <input id="contact-number" type="tel" placeholder="+63" required>
+            <label for="birthday-input">Birthday:</label>
+            <input id="birthday-input" type="date">
+            <button class="next-btn">Next</button>
+          </form>
+
+          <!-- address sign up forms -->
+          <form action="" class="sign-up-form user-adress-form">
             <img src="images-and-icons/icons/Pig-1.png" alt="pig-icon" class="pig-icon pig-top-icon">
             <img src="images-and-icons/icons/Pig-2-left.png" alt="pig-icon" class="pig-icon pig-bottom-left-icon">
             <img src="images-and-icons/icons/Pig-2-right.png" alt="pig-icon" class="pig-icon pig-bottom-right-icon">
             <h1 class="heading">Sign Up</h1>
 
             <label for="municipal">Municipal</label>
-            <select name="municipal" id="municipal">
-              <option value="boac">Boac</option>
-              <option value="mogpog">Mogpog</option>
-              <option value="sta-cruz">Sta-cruz</option>
-              <option value="gasan">Gasan</option>
-              <option value="buenavista">Buenavista</option>
+            <select name="municipal" id="municipal" required>
+
             </select>
             <label for="barangay">Barangay</label>
-            <select name="barangay" id="barangay">
-              <option value="maligaya">Maligaya</option>
-              <option value="buliasnin">Buliasnin</option>
-              <option value="santol">Santol</option>
+            <select name="barangay" id="barangay" required>
+
             </select>
             <label for="purok">Purok:</label>
             <select name="purok" id="purok" required>
@@ -146,11 +175,11 @@
             <img src="images-and-icons/icons/Pig-2-right.png" alt="pig-icon" class="pig-icon pig-bottom-right-icon">
             <h1 class="heading">Sign Up</h1>
             <label for="email-input">User email:</label> <br>         
-            <input id="email-input" type="email">
+            <input id="email-input" type="email" required>
             <label for="password-input">Password:</label> <br>   
-            <div class="password-container"><input id="password-input" type="password"> <img class="eye-icon" src="images-and-icons/icons/eye-icon.png" alt="eye-icon"></div>    
+            <div class="password-container"><input id="password-input" type="password" required> <img class="eye-icon" src="images-and-icons/icons/eye-icon.png" alt="eye-icon"></div>    
             <label for="confirm-password-input">Confirm Password:</label>
-            <div class="confirm-password-container"><input id="confirm-password-input" type="password"> <img class="eye-icon" src="images-and-icons/icons/eye-icon.png" alt="eye-icon"></div>      
+            <div class="confirm-password-container"><input id="confirm-password-input" type="password" required> <img class="eye-icon" src="images-and-icons/icons/eye-icon.png" alt="eye-icon"></div>      
             <button class="create-btn">Create</button>
           </form>
 
@@ -163,7 +192,7 @@
             <p class="details">
               &nbsp;&nbsp;&nbsp;"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores, asperiores amet! Architecto autem ducimus, et earum nisi commodi ullam officiis voluptatibus saepe magnam, praesentium quod temporibus porro ab optio aperiam?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium suscipit consequatur amet, atque, vitae distinctio quasi, deserunt sed vero iste maxime temporibus ea. Et illo nam deleniti ab natus eius."
             </p>       
-            <input id="accept" type="checkbox">
+            <input id="accept" type="checkbox" required>
             <label for="accept">I accept terms and conditions</label>
             <button id="finish-btn">Finish</button>
           </form>
