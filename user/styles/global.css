@@ -47,3 +47,16 @@ body{
   width: min(var(--wrapper-max-width), 100% - var(--wrapper-padding));
   margin-inline: auto;
 }
+
+main{
+  display: flex;
+  flex-direction: column;
+}
+
+@media(width > 800px){
+  main{
+    flex-direction: row;
+    gap: 3rem;
+    margin-top: 5rem;
+  }
+}

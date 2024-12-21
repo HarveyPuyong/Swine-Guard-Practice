@@ -1,5 +1,6 @@
 .details-container{
   margin-bottom: 4rem;
+  flex: 1;
 }
 
 .details-container .join-details{
@@ -16,9 +17,10 @@
 
 .details-container .heading{
   font-size: clamp(1.5625rem, 5vw, 3.4375rem) ;
+  line-height: 1em;
   color: var(--primary-color);
   font-weight: bolder;
-  margin-bottom: 0.8rem;;
+  margin-bottom: 1rem;;
 }
 
 .details-container .detail{
@@ -64,3 +66,4 @@
 .display-container .join-details{
   margin-bottom: 10rem;
 }
+

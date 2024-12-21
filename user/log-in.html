@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/details.css">
     <link rel="stylesheet" href="styles/form.css">
-    <link rel="stylesheet" href="styles/log-in.css">
     <title>Log-in</title>
   </head>
   <body>
@@ -73,15 +72,10 @@
             <img src="images-and-icons/icons/Pig-1.png" alt="pig-icon" class="pig-icon pig-top-icon">
             <img src="images-and-icons/icons/Pig-2-left.png" alt="pig-icon" class="pig-icon pig-bottom-left-icon">
             <h1 class="heading">LOG IN</h1>
-            <label for="email-input">
-              User email: <br>
-              <input id="email-input" type="email">
-            </label>           
-            <label for="password-input">
-              Password: <br>
-              <input id="password-input" type="password">
-              <img src="" alt="eye-icon">
-            </label>     
+            <label for="email-input">Email:</label> <br>         
+            <input id="email-input" type="email">
+            <label for="password-input">Password:</label> <br>   
+            <div class="password-container"><input id="password-input" type="password"><img class="eye-icon" src="images-and-icons/icons/eye-icon.png" alt="eye-icon"></div>              
             <button class="log-in-btn">Log in</button>
           </form>
           
@@ -90,21 +84,27 @@
             <img src="images-and-icons/icons/Pig-1.png" alt="pig-icon" class="pig-icon pig-top-icon">
             <img src="images-and-icons/icons/Pig-2-left.png" alt="pig-icon" class="pig-icon pig-bottom-left-icon">
             <img src="images-and-icons/icons/Pig-2-right.png" alt="pig-icon" class="pig-icon pig-bottom-right-icon">
-            <h1 class="heading">Sign Up</h1>          
-            <label for="status">Status</label>
-            <select name="status" id="status">
-              <option value="single">Single</option>
-              <option value="married">Married</option>
-              <option value="inrelationship">in-relationship</option>
-            </select>
-            <label for="sex">Sex</label>
-            <select name="sex" id="sex">
-              <option value="male">Male</option>
-              <option value="female">Female</option>
-              <option value="transgender">Transgender</option>
-            </select>
-            <label for="birthday-input">Birthday:</label>
-            <input id="birthday-input" type="date">
+            <h1 class="heading">Sign Up</h1>  
+            <div class="status-and-sex-container">
+              <div class="status-container">
+                <label for="status">Status</label><br>
+                <select name="status" id="status">
+                  <option value=""></option>
+                  <option value="single">Single</option>
+                  <option value="married">Married</option>
+                  <option value="inrelationship">in-relationship</option>
+                </select>
+              </div>
+              <div class="sex-container">
+                <label for="sex">Sex</label><br>
+                <select name="sex" id="sex">
+                  <option value=""></option>
+                  <option value="male">Male</option>
+                  <option value="female">Female</option>
+                  <option value="transgender">Transgender</option>
+                </select>
+              </div>        
+            </div>        
             <label for="contact-number">Phone:</label>
             <input id="contact-number" type="tel" placeholder="+63" required>
             <button class="next-btn">Next</button>
@@ -145,18 +145,12 @@
             <img src="images-and-icons/icons/Pig-2-left.png" alt="pig-icon" class="pig-icon pig-bottom-left-icon">
             <img src="images-and-icons/icons/Pig-2-right.png" alt="pig-icon" class="pig-icon pig-bottom-right-icon">
             <h1 class="heading">Sign Up</h1>
-            <label for="email-input">
-              Email:
-              <input id="email-input" type="email">
-            </label>
-            <label for="password-input">
-              Password:
-              <input id="password-input" type="password">
-            </label>
-            <label for="confirm-password-input">
-              Confirm Password:
-              <input id="confirm-password-input" type="password">
-            </label>
+            <label for="email-input">User email:</label> <br>         
+            <input id="email-input" type="email">
+            <label for="password-input">Password:</label> <br>   
+            <div class="password-container"><input id="password-input" type="password"> <img class="eye-icon" src="images-and-icons/icons/eye-icon.png" alt="eye-icon"></div>    
+            <label for="confirm-password-input">Confirm Password:</label>
+            <div class="confirm-password-container"><input id="confirm-password-input" type="password"> <img class="eye-icon" src="images-and-icons/icons/eye-icon.png" alt="eye-icon"></div>      
             <button class="create-btn">Create</button>
           </form>
 
@@ -167,14 +161,16 @@
             <img src="images-and-icons/icons/Pig-2-right.png" alt="pig-icon" class="pig-icon pig-bottom-right-icon">
             <h1 class="heading">Sign Up</h1>
             <p class="details">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores, asperiores amet! Architecto autem ducimus, et earum nisi commodi ullam officiis voluptatibus saepe magnam, praesentium quod temporibus porro ab optio aperiam?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium suscipit consequatur amet, atque, vitae distinctio quasi, deserunt sed vero iste maxime temporibus ea. Et illo nam deleniti ab natus eius.
+              &nbsp;&nbsp;&nbsp;"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores, asperiores amet! Architecto autem ducimus, et earum nisi commodi ullam officiis voluptatibus saepe magnam, praesentium quod temporibus porro ab optio aperiam?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium suscipit consequatur amet, atque, vitae distinctio quasi, deserunt sed vero iste maxime temporibus ea. Et illo nam deleniti ab natus eius."
             </p>       
             <input id="accept" type="checkbox">
-            <label for="accept">I accept terms anf conditions</label>
+            <label for="accept">I accept terms and conditions</label>
             <button id="finish-btn">Finish</button>
           </form>
         </div>
       </main>
     </div>
+
+    <script type="module" src="script/main.js"></script>
   </body>
 </html>
