@@ -16,7 +16,7 @@
 }
 
 .forms-container .sign-up-form{
-  /* display: none; */
+  display: none;
 }
 
 .forms-container .sign-up-form.terms-and-condition .details{
